@@ -23,7 +23,7 @@ body {
     color: black;
 }
 
-p#tooltip-text {
+p#text-button {
     display: none;
     position: absolute;
     top: -60px;

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+body {
+    background-color: lightcyan;
+    font-family: 'Alkatra', cursive;
+}
+
+.first {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second {
+    flex: 33.33%
+    padding: 5px;
+}
+
+.link-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+@media (max-width: 580px) {
+    body{
+        flex-direction: column;
+    }
+}

@@ -1,6 +1,6 @@
 $("h1").each(function(index, element){
     var animation = TweenMax.to(this, 0.2, {
-      className: ' += main',
+      className: ' += superShadow',
       marginTop: '-10px',
       marginBottom: '10px',
       ease: Power1.easeIn,

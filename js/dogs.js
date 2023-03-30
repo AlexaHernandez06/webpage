@@ -1,2 +1,5 @@
 const rotated = document.getElementById('rotated');
-rotated.style.transform = 'rotate(360deg)';
+
+function rotateImage() {
+    rotated.style.transform = 'rotate(360deg)';
+}

@@ -22,12 +22,6 @@ body {
     color: black;
 }
 
-.button {
-    align-items: center;
-}
-
-
-
 
 @media (max-width: 580px) {
     body{

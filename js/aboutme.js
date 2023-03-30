@@ -2,17 +2,17 @@
 window.onload=function(){
 
     // selecting the elements for which we want to add a tooltip
-    const target = document.getElementById("text");
-    const word = document.getElementById("text-button");
+const target = document.getElementById("text");
+const word = document.getElementById("text-button");
 
     // change display to 'block' on mouseover
-    target.addEventListener('mouseover', () => {
-      word.style.display = 'block';
-    }, false);
+target.addEventListener('mouseover', () => {
+    word.style.display = 'block';
+}, false);
 
     // change display to 'none' on mouseleave
-    target.addEventListener('mouseleave', () => {
-      word.style.display = 'none';
-    }, false);
+target.addEventListener('mouseleave', () => {
+    word.style.display = 'none';
+}, false);
 
-    }
+}

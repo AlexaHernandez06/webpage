@@ -2,8 +2,8 @@
 window.onload=function(){
 
     // selecting the elements for which we want to add a tooltip
-const target = document.getElementById("text");
-const word = document.getElementById("text-button");
+const target = document.getElementById("text-button");
+const word = document.getElementById("text");
 
     // change display to 'block' on mouseover
 target.addEventListener('mouseover', () => {

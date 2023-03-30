@@ -23,7 +23,7 @@ body {
     color: black;
 }
 
-p#text-button {
+button#text-button {
     display: none;
     position: absolute;
     top: -60px;
